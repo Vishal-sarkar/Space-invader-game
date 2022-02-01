@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Space Invaders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrap">
+        <header>Custom Space Invaders</header>
+        <div class="game-wrapper">
+            <div class="main"></div>
+            <div class="start">
+                <h1>WELCOME TO THE ARENA</h1>
+                <h2>INSTRUCTIONS:</h2>
+                <h3>Press space bar "<img src="img/space.png" alt="space">" to shoot.</h3> 
+                <h4>Press "<img src="img/right.png" alt="right">" to move right and press "<img src="img/left.png" alt="left">" to move left. </h4>
+                <button class="startBtn" >Start</button>
+            </div>
+            <div class="win">
+                <h1>YOU WIN!!</h1>
+                <H2>Winner Winner Chicken Dinner</H2>
+                <button class="btn" onclick="window.location.reload()">Restart</button>
+            </div>
+            <div class="lose">
+                <h1>GAME OVER!</h1>
+                <H2>Try Again!</H2>
+                <button class="btn" onclick="window.location.reload()">Restart</button>
+            </div>
+        </div>
+        <!-- script file -->
+        <script src="script.js"></script>
+        <footer></footer>
+    </div>
+    
+</body>
+</html>
